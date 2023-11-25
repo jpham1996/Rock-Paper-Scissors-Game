@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.scoreboard-section {
+  margin-bottom: 1.563em;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  margin-bottom: 1.563em;
+}
+
+.game-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 1.563em;
+}
+
+.hide {
+  display: none;
+}
